@@ -9,6 +9,6 @@ attr_accessor :title, :author
     @@all
   end
   def author_name
-    self.author.name
+    self.author.name || nil
   end
 end
