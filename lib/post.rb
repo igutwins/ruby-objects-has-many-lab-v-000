@@ -5,4 +5,7 @@ attr_accessor :title, :author
     @title = title
     @@all << self
   end
+  def all
+    @@all
+  end 
 end
