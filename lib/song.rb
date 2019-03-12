@@ -8,7 +8,7 @@ attr_accessor :name, :artist
   def self.all
     @@all
   end
-  def self.artist_name
+  def artist_name
     self.artist.name
   end
 end
