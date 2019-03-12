@@ -4,8 +4,9 @@ class Artist
     @name = name
     @songs = []
   end
-  def add_song(song)
+  def add_song(song_name)
     song = Song.new
+    song_name = song.name
     song.artist = self
   end
   def add_song_by_name(song_name)
