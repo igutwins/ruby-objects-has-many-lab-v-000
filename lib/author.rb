@@ -15,5 +15,5 @@ attr_accessor :name
     post = Post.new(post_title)
     @post << post
     post.author = self
-  end 
+  end
 end
