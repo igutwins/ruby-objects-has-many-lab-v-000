@@ -20,6 +20,6 @@ attr_accessor :name
     post.author = self
   end
   def  self.post_count
-    @@posts
+    @@posts.count
   end
 end
