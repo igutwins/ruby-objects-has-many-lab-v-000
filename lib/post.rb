@@ -7,5 +7,5 @@ attr_accessor :title, :author
   end
   def all
     @@all
-  end 
+  end
 end
